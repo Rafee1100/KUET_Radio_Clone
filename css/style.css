@@ -22,15 +22,14 @@ body{
 .logo{
     width: 100px;
 }
-.row{
+/* .row{
    position: relative;
    display:flex;
    width: 80%;
    flex-wrap: wrap;
    margin-right: -15px;
    margin-right: -15px;
-   border: 2px solid red;
-}
+} */
 .navClass{
     margin-left: 800px;
 }
@@ -159,15 +158,22 @@ body{
 .gaanPlay{
     font-size: 80px;
 }
-.slogan .iconsClass{
-    position: relative;
-    right: 500px;
-    bottom: 0;
-    top: 550px;
-}
 .first-part{
-    height: 300px;
-    background-image: url('https://soundgirls.org/wp-content/uploads/2020/10/Podcast-Microphone-Neil-Godding-for-Unsplash.webp');
+    background-color: white;
+    overflow: hidden;
+}
+.home_bg_cover {
+    background-image: url('./images/cover.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 5%;
+
+}
+.icon-area{
+    text-align: left;
+}
+.second-part{
+    background-color: white;
+    height: 500px;
     width: 100%;
 }
