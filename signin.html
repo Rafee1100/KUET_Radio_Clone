@@ -35,7 +35,7 @@
                             <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./onair.html">On Air</a>
+                            <a class="nav-link" href="./onair.html">On Air</a>
                         </li>
                         <li class="nav-item dropdown pl-sm-4">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -51,57 +51,96 @@
                             </div>
                         </li>
                         <li class="nav-item pl-sm-4" id="login">
-                            <a class="nav-link" id="sigUp" href="./signin.html">Sign In</a>
+                            <a class="nav-link active" id="sigUp" href="./signin.html">Sign In</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="container">
-            <p class="motoName">KUET Radio</p>
-            <p><i class="far fa-play-circle playBtn"></i></p>
-        </div>
-        <div class="partners ">
-            <a href=""><i class="fab fa-linkedin-in icon"></i></a>
-            <a href=""><i class="fab fa-youtube icon"></i></a>
-            <a href=""><i class="fab fa-facebook-f icon"></i></a>
-            <a href=""><i class="fab fa-linkedin-in icon"></i></a>
-            <a href=""><i class="fas fa-cloud icon"></i></a>
-            <button class="btn btn-success request-song">
-                <h6>Request A Song</h6>
-            </button>
-            <button class="chatBox"><i class="far fa-comments icon"></i></button>
-        </div>
-    </section>
-    <section class="second-part">
-        <button class="btn btn-danger showDetails" type="">No Shows are Running</button>
-
-        <div class="comment">
-            <h3>Leave a Comment</h3>
-            <div class="form-control form-part">
-                <div class="row d-flex">
-                    <div class="col-md-6">
-                        <p>Name</p>
-                        <input type="text" class="inputArea" name="" id="" placeholder="Enter your name">
-                    </div>
-                    <div class="col-md-6">
-                        <p>Batch</p>
-                        <input type="text" name="" class="inputArea" placeholder="Enter your Batch" id="">
-                    </div>
+        <div class="container headText">
+            <div class="row">
+                <div class="col-md-6 firstHalf">
+                    <h3>KUET Radio</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem temporibus voluptates
+                        mollitia veritatis? Quis ducimus aspernatur, voluptatibus reiciendis praesentium saepe commodi.
+                        Necessitatibus doloribus adipisci sequi!</p>
+                    <a href=""><i class="fab fa-linkedin-in icon"></i></a>
+                    <a href=""><i class="fab fa-youtube icon"></i></a>
+                    <a href=""><i class="fab fa-facebook-f icon"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in icon"></i></a>
+                    <a href=""><i class="fas fa-cloud icon"></i></a>
                 </div>
-                <br>
-                <div class="commentPart">
-                    <label for="Comment" style="font-size: 20px;">Comment</label>
-                    <br><br>
-                    <textarea id="submitComment" class="inputArea" name="" rows="4" cols="50"></textarea>
-                    <br><br>
-                    <button type="button" class="btn btn-success">Comment</button>
+                <div class="col-md-6">
+                    <button class="btn btn-success fistRequest">
+                        <h6>Request A Song</h6>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
+    <section class="second-signin">
+        <div class="container comment">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Sign In</h3>
+                    <p>Email</p>
+                    <input type="email" class="name" style="width: 80%;" name="" id="">
+                    <p>Password</p>
+                    <input type="password" class="name" style="width: 80%;" name="" id=""><br><br>
+                    <button class="btn btn-success" type="submit">Sign In</button>
+                    <p>Forget password? <a style="color: greenyellow;">Click Here</a> </p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Sign Up</h3>
+                    <p>Profile Picture</p>
+                    <input type="text" id="picUp" class="name" src="" placeholder="Upload your image...." alt="">
+                    <button type="button" class="btn btn-secondary browse">Browse</button>
+                    <div class="d-flex">
+                        <div class="col-md-6">
+                            <br>
+                            <p>First Name</p>
+                            <input type="text" class="name" name="" id="">
+                        </div>
+                        &nbsp; &nbsp;
+                        <div class="col-md-6">
+                            <br>
+                            <p>Last Name</p>
+                            <input type="text" class="name" name="" id="">
+                        </div>
+                    </div>
+                    <br>
+                    <p>Birth Date</p>
+                    <input type="date" class="name" name="" id="">
+                    <br><br>
+                    <p>Contact No (Mobile)</p>
+                    <input type="tel" name="" class="name" id="">
+                    <br><br>
+                    <div class="d-flex">
+                        <div class="col-md-5">
+                            <p>Roll</p>
+                            <input type="text" name="" class="name" id="">
+                        </div>
+                        <div class="col-md-5">
+                            <p>Batch</p>
+                            <input type="text" name="" class="name" id="">
+                        </div>
+                    </div>
+                    <br>
+                    <p>Email</p>
+                    <input type="email" name="" class="name" id="">
+                    <br>
+                    <p>Password</p>
+                    <input type="password" name="" class="name" id="">
+                    <br><br>
+                    <button type="" class="btn btn-success"> Sign Up</button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
     <section>
-        <footer class="footer pt-5 pb-3">
+        <div class="footer pt-5 pb-3">
             <div class="container">
                 <div class="row">
                     <div class="col-4 col-sm-4">
@@ -117,8 +156,11 @@
                     </div>
                     <div class="col-4 col-sm-4">
                         <h4 class="footerheader">Our contacts</h4>
-                        <p><i class="fas fa-phone-alt callicon"></i> &nbsp; <span style="color: greenyellow;"> 01624256408</span> </p>
-                        <p><i class="fas fa-envelope callicon"> &nbsp; <span style="color: greenyellow; font-weight: lighter; font-size: 16px;">kuetradioofficila@gmail.com</span> </i></p>
+                        <p><i class="fas fa-phone-alt callicon"></i> &nbsp; <span style="color: greenyellow;">
+                                01624256408</span> </p>
+                        <p><i class="fas fa-envelope callicon"> &nbsp; <span
+                                    style="color: greenyellow; font-weight: lighter; font-size: 16px;">kuetradioofficila@gmail.com</span>
+                            </i></p>
                     </div>
                     <div class="col-4 col-sm-4 footer-link">
                         <h4 class="footerheader"> &nbsp; Follow Us on</h4>
@@ -131,8 +173,17 @@
                     </div>
                 </div>
                 <div class="copyright">
-                    <p> &copy; Copyright 2021 KUET Radio | Developed by <span style="color: greenyellow;">Showrin Barua</span> </p>
+                    <p> &copy; Copyright 2021 KUET Radio | Developed by <span style="color: greenyellow;">Showrin
+                            Barua</span> </p>
                 </div>
+            </div>
+        </div>
+        <footer class="radioPlay">
+            <div class="container footer-div d-flex">
+                <img src="./images/logo.png" alt="">
+                <button style="color: white; background:none; font-size: 40px; border: none;" ><i class="far fa-play-circle icon"></i></button>
+                <h4 class="radioMoto">KUET Radio</h4>
+                <button class="chatBox"><i class="far fa-comments icon"></i></button>
             </div>
         </footer>
 
