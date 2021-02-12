@@ -1,7 +1,9 @@
-*{
+body,html{
+    width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 .top-part{
     background-image: url('https://soundgirls.org/wp-content/uploads/2020/10/Podcast-Microphone-Neil-Godding-for-Unsplash.webp');
@@ -95,11 +97,13 @@
     color: greenyellow;
 }
 .second-part{
+    margin-top: 50px;
+    margin-bottom: 150px;
     width: 70%;
     margin: 0 250px;
 }
-.showDetails{
-    margin: 40px 50px;
+.showDetails,.showDetails:hover{
+    margin: 40px 12px;
     width: 100%;
     background: rgba(255, 105, 180, 0.459);
     border: none;
@@ -108,13 +112,45 @@
     color: rgb(58, 26, 3);
     text-align: start;
 }
-.showDetails:hover{
-    margin: 40px 50px;
+
+    /* margin: 40px 50px;
     width: 100%;
     background: rgba(255, 105, 180, 0.459);
     border: none;
     height: 48px;
     border-radius: 5px;
     color: rgb(58, 26, 3);
-    text-align: start;
+    text-align: start; */
+
+.inputArea{
+    width: 500px;
+    border: .5px solid rgba(128, 128, 128, 0.513);
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+#submitComment{
+    width: 1167px;
+}
+.form-part{
+    border: none;
+}
+.comment h3{
+    font-size: 35px;
+    margin-left: 12px;
+}
+.links{
+    list-style: none;
+    margin-left: 0;
+}
+.links li a{
+    color: greenyellow;
+}
+footer{
+    background-color: rgb(13, 33, 42);
+}
+.footerheader{
+    color: white;
+}
+.callicon{
+    color: white;
 }
