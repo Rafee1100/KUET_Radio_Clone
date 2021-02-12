@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-part{
+    background-image: url('https://soundgirls.org/wp-content/uploads/2020/10/Podcast-Microphone-Neil-Godding-for-Unsplash.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    opacity: .9;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.logo{
+    width: 100px;
+}
+/* .row{
+   position: relative;
+   display:flex;
+   width: 80%;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-right: -15px;
+} */
+.navClass{
+    margin-left: 800px;
+}
+.navClass ul li{
+    padding: 0 12px;
+}
+#sigUp{
+    color: greenyellow;
+    font-size: 15px;
+}
+#login:hover{
+    background-color: greenyellow;
+}
+#sigUp:hover{
+    color: black;
+}
+#login{
+    color: greenyellow;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 1px solid greenyellow;
+    border-radius: 3px;
+}
+.motoName{
+    position: relative;
+    top: 30vh;
+    color: White;
+    left: 500px;
+    font-size: 60px;
+    font-weight: lighter;
+}
+.playBtn{
+    color: white;
+    position: relative;
+    top: 30vh;
+    color: White;
+    left: 600px;
+    font-size: 70px;
+}
+.partners{
+    position: relative;
+    top: 43vh;
+    left: 300px;
+    font-size: 20px;
+}
+.partners a{
+    padding: 8px;
+    color: white;
+}
+.request-song{
+    color: white;
+    background-color: rgba(117, 187, 11, 0.924);
+    border-radius: 7px;
+    margin-left: 750px;
+    padding: 3px 22px;
+    border: none;
+    font-size: 18px;
+}
+.chatBox{
+    margin-left: 50px;
+    margin-top: 0px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: greenyellow;
+}
+.second-part{
+    width: 70%;
+    margin: 0 250px;
+}
+.showDetails{
+    margin: 40px 50px;
+    width: 100%;
+    background: rgba(255, 105, 180, 0.459);
+    border: none;
+    height: 48px;
+    border-radius: 5px;
+    color: rgb(58, 26, 3);
+    text-align: start;
+}
+.showDetails:hover{
+    margin: 40px 50px;
+    width: 100%;
+    background: rgba(255, 105, 180, 0.459);
+    border: none;
+    height: 48px;
+    border-radius: 5px;
+    color: rgb(58, 26, 3);
+    text-align: start;
+}

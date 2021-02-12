@@ -155,25 +155,3 @@ body{
 .chatBox{
     padding-left: 450px;
 }
-.gaanPlay{
-    font-size: 80px;
-}
-.first-part{
-    background-color: white;
-    overflow: hidden;
-}
-.home_bg_cover {
-    background-image: url('./images/cover.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 5%;
-
-}
-.icon-area{
-    text-align: left;
-}
-.second-part{
-    background-color: white;
-    height: 500px;
-    width: 100%;
-}
