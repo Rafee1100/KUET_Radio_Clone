@@ -152,6 +152,7 @@ body,html{
 }
 .footer{
     margin-top: 150px;
+    margin-bottom: 70px;
     background-color: rgb(11, 64, 88);
 }
 .footerheader{
@@ -210,7 +211,9 @@ body,html{
     padding:5px;
 }
 .radioPlay{
-    background-image: linear-gradient(45deg,rgb(63, 60, 59),rgb(26, 26, 15));
+   background-image: url('https://image.shutterstock.com/image-photo/walnut-wood-texture-super-long-260nw-1058203781.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
     position:fixed;
     bottom:0;
     width:100%;
@@ -241,4 +244,73 @@ body,html{
 }
 .chatBox{
     padding-left: 450px;
+}
+.show{
+    font-size: 12px;
+    color: white;
+}
+.hoichoi2{
+    background-image: url('https://us.123rf.com/450wm/belchonock/belchonock1804/belchonock180448219/99263838-microphone-at-radio-station-closeup.jpg?ver=6');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 600px;
+    border-radius: 5px;
+    margin: 30px;
+}
+.info{
+    padding: 25px 20px;
+    color: white;
+    width: 80%;
+}
+#hoichoi10{
+    background-image: url('https://billetto.co.uk/blog/wp-content/uploads/2020/01/fh-q-xfdh_o-scaled-e1578056698778.jpg');
+}
+#clubpedia{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr7Q58DXf_XYpHkRL6xpJX6cLOBO8sSDavnQ&usqp=CAU');
+}
+#hok-kolorob{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr7Q58DXf_XYpHkRL6xpJX6cLOBO8sSDavnQ&usqp=CAU');
+}
+#jogakhichuri{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZpfrXHcE_exOeziQNI3b_KsYPGn-nDFUFKQ&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 97%;
+    height: 200px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.memberPic{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.members{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
+.memberDetails{
+    padding: 30px;
+    border: 0.5px .5px solid grey;
+}
+.nameResignation{
+    margin: 8px;
+}
+.resignation{
+    color: rgb(135, 204, 33);
+}
+.Alumni{
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.contactDetails{
+    padding: 10px;
+    border: none;
+}
+.subject{
+    margin-left: 20px;
+    width: 100%;
 }
